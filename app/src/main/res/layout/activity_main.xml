@@ -1,19 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:id="@+id/main"
+    android:background="#9EBDAC"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/non"
+        android:layout_weight="0.5" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/medium_dimen"
+        android:layout_height="@dimen/medium_dimen"
+        android:background="@color/dark_blue"
+        android:src="@drawable/android_logo"
+        android:contentDescription= "@string/logo" />
 
     <TextView
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="@dimen/small_margin"
+        android:text="@string/name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_size"
+        android:textStyle="normal" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:text="@string/android_developer_extraordinaire"
+        android:textColor="@color/green"
+        android:textSize="@dimen/normal_text_size"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/non"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="@string/phone_number"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_text_size"
+        app:drawableStartCompat="@drawable/baseline_call_24" />
+
+    <TextView
+        android:id="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="@string/share"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_text_size"
+        app:drawableStartCompat="@drawable/baseline_share_24" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normal_text_size"
+        app:drawableStartCompat="@drawable/baseline_email_24" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/non"
+        android:layout_weight="0.1" />
+</LinearLayout>

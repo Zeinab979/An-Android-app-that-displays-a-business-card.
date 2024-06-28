@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_text_size">18sp</dimen>
+    <dimen name="margin_start">60dp</dimen>
+    <dimen name="margin_end">30dp</dimen>
+    <dimen name="drawable_padding">20dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="non">0dp</dimen>
+    <dimen name="medium_dimen">150dp</dimen>
+    <dimen name="title_size">48sp</dimen>
+</resources>
