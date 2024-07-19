@@ -104,3 +104,5 @@ w
 G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
 w
 G.idea/sonarlint/issuestore/9/e/9e08934d811afe28fbc77aaa3c0d747b94348db9,0\1\0105d5a774c76db833eb83cbebde54a8abef1599
+e
+5app/src/main/java/com/example/task_1/StartActivity.kt,6\5\65861637db9de233fd42e6ece9b5e52dac953808

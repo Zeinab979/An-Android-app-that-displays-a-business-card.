@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Task</string>
-    <string name="android_developer_extraordinaire">Android Developer Extraordinaire</string>
+    <string name="android_developer_extraordinaire">Android Developer Extraordinary</string>
     <string name="phone_number">+11 (123) 444 555 666</string>
     <string name="share">\@AndroidDev</string>
-    <string name="email">jen.doe@android.com</string>
-    <string name="name">Jennifer Doe</string>
+    <string name="email">zeinabWahdan@android.com</string>
+    <string name="name">Zeinab Wahdan</string>
     <string name="logo">logo</string>
+    <string name="linkedin_account">linkedIn account</string>
+    <string name="facebook_account">facebook account</string>
+    <string name="github_account">github account</string>
+    <string name="back_arrow">back_arrow</string>
 </resources>
